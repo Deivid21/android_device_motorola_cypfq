@@ -7,6 +7,3 @@ ro.opa.device_model_id=motorola-fogos
 
 # Motorola
 ro.mot.build.customerid=global
-
-# SKU specific properties
-import /product/etc/hardware.sku.${ro.boot.hardware.sku}.prop
