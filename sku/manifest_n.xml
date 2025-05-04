@@ -53,7 +53,7 @@
         <name>vendor.qti.hardware.radio.qtiradio</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IQtiRadio/slot1</fqname>
-        <fqname>@2.7::IQtiRadio/slot1</fqname>
+        <fqname>@2.6::IQtiRadio/slot1</fqname>
     </hal>
     <hal format="hidl" override="true">
         <name>vendor.qti.hardware.radio.uim</name>

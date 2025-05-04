@@ -8,21 +8,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from fogos device
-$(call inherit-product, device/motorola/fogos/device.mk)
+# Inherit from cypfq device
+$(call inherit-product, device/motorola/cypfq/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fogos
-PRODUCT_DEVICE := fogos
+PRODUCT_NAME := lineage_cypfq
+PRODUCT_DEVICE := cypfq
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g34 5G
+PRODUCT_MODEL := moto g51 5g
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="fogos_g-user 15 V1UG35H.75-14-3 6c77f4-ac72a9 release-keys MV-186" \
-    BuildFingerprint=motorola/fogos_g/fogos:15/V1UG35H.75-14-3/6c77f4-ac72a9:user/release-keys \
-    DeviceProduct=fogos_g
+    BuildDesc="cypfq_g-user 12 S2RYAS32.58-13-12-5-1-7 e0667 release-keys" \
+    BuildFingerprint=motorola/cypfq_g/cypfq:11/S2RYAS32.58-13-12-5-1-7/e0667:user/release-keys \
+    DeviceProduct=cypfq_g

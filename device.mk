@@ -78,4 +78,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
+$(call inherit-product, vendor/motorola/cypfq/cypfq-vendor.mk)

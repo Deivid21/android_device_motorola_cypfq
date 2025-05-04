@@ -1,3 +1,3 @@
-Device tree for the Motorola moto g34
+Device tree for the Motorola moto g51
 
-Information about the device, build and install instructions can be found [here](http://wiki.lineageos.org/devices/fogos/)
+Information about the device, build and install instructions can be found [here](http://wiki.lineageos.org/devices/cypfq/)
