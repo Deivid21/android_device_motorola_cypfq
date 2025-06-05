@@ -39,6 +39,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lockPlanes')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
+        'vendor/bin/STFlashTool': blob_fixup()
+        .add_needed('libbase_shim.so'),
 }  # fmt: skip
 
 extract_fns: extract_fns_user_type = {
