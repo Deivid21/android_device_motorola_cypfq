@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
+    init.oem.fingerprint.overlay.sh \
     init.oem.fingerprint2.sh
 
 # Lights
