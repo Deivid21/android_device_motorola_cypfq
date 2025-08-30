@@ -57,3 +57,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 20
 
 # inherit from the proprietary version
 include vendor/motorola/cypfq/BoardConfigVendor.mk
+include vendor/motorola/cypfq-radio/BoardConfigVendor.mk
