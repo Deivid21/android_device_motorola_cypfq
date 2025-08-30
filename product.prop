@@ -1,7 +1,3 @@
-# e-SIM
-masterclear.allow_retain_esim_profiles_after_fdr=true
-ro.telephony.esim_slot_id=1
-
 # Google
 ro.opa.device_model_id=motorola-cypfq
 
@@ -9,7 +5,7 @@ ro.opa.device_model_id=motorola-cypfq
 ro.mot.build.customerid=global
 
 # NFC
-persist.nfc_cfg.config_file_name=libnfc-nci_SN220.conf
+persist.nfc_cfg.config_file_name=libnfc-hal-st.conf
 
 # Radio
 persist.vendor.radio.fi_supported=1
