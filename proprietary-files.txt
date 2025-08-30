@@ -309,3 +309,7 @@ vendor/etc/thermal-engine.conf
 # Touchscreen firmware
 vendor/firmware/ILITEK_FW_CSOT_7807S
 vendor/firmware/ILITEK_FW_TM_7807S
+
+# Touchscreen firmware (recovery)
+vendor/firmware/ILITEK_FW_CSOT_7807S:recovery/root/vendor/firmware/ILITEK_FW_CSOT_7807S
+vendor/firmware/ILITEK_FW_TM_7807S:recovery/root/vendor/firmware/ILITEK_FW_TM_7807S
